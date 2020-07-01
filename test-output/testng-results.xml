@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="65" started-at="2020-07-01T15:20:54 IST" finished-at="2020-07-01T15:20:54 IST">
+    <groups>
+      <group name="calculator">
+        <method signature="TestCase3_Parameters.inverseTest(java.lang.String)[pri:0, instance:com.testng.testcases.TestCase3_Parameters@50b494a6]" name="inverseTest" class="com.testng.testcases.TestCase3_Parameters"/>
+        <method signature="TestCase3_Parameters.negateTest(java.lang.String)[pri:0, instance:com.testng.testcases.TestCase3_Parameters@50b494a6]" name="negateTest" class="com.testng.testcases.TestCase3_Parameters"/>
+      </group> <!-- calculator -->
+      <group name="inverse">
+        <method signature="TestCase3_Parameters.inverseTest(java.lang.String)[pri:0, instance:com.testng.testcases.TestCase3_Parameters@50b494a6]" name="inverseTest" class="com.testng.testcases.TestCase3_Parameters"/>
+        <method signature="TestCase3_Parameters.negateTest(java.lang.String)[pri:0, instance:com.testng.testcases.TestCase3_Parameters@50b494a6]" name="negateTest" class="com.testng.testcases.TestCase3_Parameters"/>
+      </group> <!-- inverse -->
+    </groups>
+    <test name="Test" duration-ms="65" started-at="2020-07-01T15:20:54 IST" finished-at="2020-07-01T15:20:54 IST">
+      <class name="com.testng.testcases.TestCase3_Parameters">
+        <test-method status="PASS" signature="inverseTest(java.lang.String)[pri:0, instance:com.testng.testcases.TestCase3_Parameters@50b494a6]" name="inverseTest" duration-ms="14" started-at="2020-07-01T15:20:54 IST" finished-at="2020-07-01T15:20:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inverseTest -->
+        <test-method status="PASS" signature="negateTest(java.lang.String)[pri:0, instance:com.testng.testcases.TestCase3_Parameters@50b494a6]" name="negateTest" duration-ms="14" started-at="2020-07-01T15:20:54 IST" finished-at="2020-07-01T15:20:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negateTest -->
+      </class> <!-- com.testng.testcases.TestCase3_Parameters -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
